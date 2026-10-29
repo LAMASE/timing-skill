@@ -1,4 +1,4 @@
-# timing — A wait skill for AI agents
+# timing. A wait skill for AI agents
 
 A small, dependency-free tool that lets **any AI agent with shell or Python access** wait for a precise amount of time (milliseconds to hours) or **until a specific clock time**.
 
