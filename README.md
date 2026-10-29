@@ -1,6 +1,6 @@
 # timing — A wait skill for AI agents
 
-A small, dependency-free tool that lets **any AI agent with shell or Python access** wait for a precise amount of time (milliseconds to hours) or **until a specific clock time** — reliably, portably and verifiably.
+A small, dependency-free tool that lets **any AI agent with shell or Python access** wait for a precise amount of time (milliseconds to hours) or **until a specific clock time**.
 
 Language-model agents have no sense of time passing between tool calls. Any real delay has to be produced by running code. `timing` gives agents a single, predictable command for that, plus instructions on when and how to use it.
 
@@ -51,6 +51,15 @@ The final `DONE elapsed=…` line gives the agent proof that the wait actually h
 3. Adjust the paths in the instructions to match where you put the script.
 
 ## Usage
+
+### Chatting with your agent
+- "Wait 30 seconds, then check again"
+- Retrying after a rate-limit error (HTTP 429)
+- Polling a build, deploy or job until it finishes
+- Giving a server time to start before running tests
+- Spacing out API requests
+- Running an action at a specific time ("at 14:30, do X")
+
 
 ### Command line
 
